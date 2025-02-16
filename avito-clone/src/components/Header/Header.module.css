@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+  border-bottom: 1px solid var(--feed-item-border);
+}
+
+.headerName {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.searchAndFilter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.searchInput {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid var(--news-container-border);
+  border-radius: 4px;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--news-container-bg);
+}
+
+.searchInput::placeholder {
+  color: var(--news-container-description);
+}
+
+.searchButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryFilter {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid var(--news-container-border);
+  border-radius: 4px;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--news-container-bg);
+  cursor: pointer;
+}
+
+.createPostButton,
+.backButton {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--news-container-description);
+  background-color: var(--header-create-post-button);
+  border: 1px solid var(--header-create-post-button-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.createPostButton:hover {
+  background-color: var(--header-create-post-button-hover);
+}
+
+.backButton {
+  background-color: var(--create-post-form-button);
+  border: 1px solid var(--create-post-form-button-border);
+}
+
+.backButton:hover {
+  background-color: var(--create-post-form-button-hover);
+}

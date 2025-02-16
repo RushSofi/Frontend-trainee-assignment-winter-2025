@@ -1,0 +1,97 @@
+.createAdForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.createAdForm h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.createAdForm input,
+.createAdForm textarea,
+.createAdForm select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.createAdForm input:focus,
+.createAdForm textarea:focus,
+.createAdForm select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.createAdForm textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.categoryFields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.buttonGroup button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.buttonGroup button:hover {
+  opacity: 0.9;
+}
+
+.nextButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.backButton {
+  background-color: #6c757d;
+  color: white;
+}
+
+.addButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .createAdForm {
+    margin: 1rem;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,51 @@
+:root {
+  --background-light: #ffffff;
+  --text-light: #000;
+  --background-dark: #1e1e1e;
+  --text-dark: #d2d2d2;
+}
+
+.theme-light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  --news-container-bg: #efdef5;
+  --news-container-border: #e0e0e0;
+  --feed-item-border: #000;
+  --news-container-description: #444;
+  --news-container-toggle-button: #007bff;
+  --create-post-form-button: #76b6fa;
+  --create-post-form-button-hover: #7bafe8;
+  --create-post-form-button-border: #315275;
+  --header-create-post-button: #81f5b1;
+  --header-create-post-button-hover: #7ae1a5;
+  --header-create-post-button-border: #5cbc89;
+  --create-post-form-cancel-button: #f0847c;
+  --create-post-form-cancel-button-border: #a34c46;
+  --create-post-form-cancel-button-hover: #db6d65;
+  --text-color: #000;
+  --button-bg: #f0f0f0;
+  --button-hover-bg: #e0e0e0;
+  --button-text: #333333;
+}
+
+.theme-dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  --news-container-bg: #3b0c52;
+  --news-container-border: #210224;
+  --feed-item-border: #d2d2d2;
+  --news-container-description: #a9a9a9;
+  --create-post-form-button: #283c52;
+  --create-post-form-button-hover: #334457;
+  --create-post-form-button-border: #000;
+  --header-create-post-button: #013f1b;
+  --header-create-post-button-hover: #144d2c;
+  --header-create-post-button-border: #021f0f;
+  --create-post-form-cancel-button: #912f28;
+  --create-post-form-cancel-button-border: #571814;
+  --create-post-form-cancel-button-hover: #ad4038;
+  --text-color: #d2d2d2;
+  --button-bg: #333;
+  --button-hover-bg: #444;
+  --button-text: #fff;
+}
